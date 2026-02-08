@@ -1,0 +1,63 @@
+## Interface: 120000
+## Title: Homestead
+## Notes: See housing decor vendors and their wares on your map and track your collection progress
+## Author: Nubs
+## Version: v1.2.0
+## SavedVariables: HomesteadDB
+## IconTexture: Interface\AddOns\Homestead\Textures\icon
+## Category: Housing
+## X-Website: https://github.com/Royaleint/Homestead
+## X-License: GPL-3.0
+## X-Wago-ID: aNDMQ86o
+## OptionalDependencies: WagoAnalytics
+## X-Curse-Project-ID: 1450714
+
+# Libraries
+embeds.xml
+Libs\WagoAnalytics\Shim.lua
+
+# Localization
+Locale\enUS.lua
+
+# Core
+Core\constants.lua
+Core\core.lua
+Core\events.lua
+Core\cache.lua
+
+# Data Classes
+Data\DecorData.lua
+Data\VendorDatabase.lua
+Data\VendorData.lua
+Data\AchievementDecor.lua
+
+# Source Data (non-vendor acquisition)
+Data\QuestSources.lua
+Data\AchievementSources.lua
+Data\ProfessionSources.lua
+Data\DropSources.lua
+Data\SourceManager.lua
+
+# Utilities
+Utils\waypoints.lua
+
+# Modules
+Modules\DecorTracker.lua
+Modules\CatalogScanner.lua
+Modules\VendorTracer.lua
+Modules\VendorScanner.lua
+Modules/ExportImport.lua
+Modules/Validation.lua
+
+# Overlay System
+Overlay\overlay.lua
+Overlay\Containers.lua
+Overlay\Merchant.lua
+Overlay\Tooltips.lua
+
+# UI
+UI\WelcomeFrame.lua
+UI\MainFrame.lua
+UI\OutputWindow.lua
+UI\VendorMapPins.lua
+UI\Options.lua
