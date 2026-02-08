@@ -1,0 +1,6 @@
+Baganator: enabled
+Plumber: enabled
+Syndicator: enabled
+WaypointUI: enabled
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled

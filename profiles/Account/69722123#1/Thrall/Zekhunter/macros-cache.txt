@@ -1,0 +1,61 @@
+VER 3 0100000000000002 " " "132130"
+#showtooltip
+/use [pet:Water Strider]Surface Trot;[pet:Crane]Gift of Chi-Ji;[pet:Spirit Beast,@player][]Spirit Mend;[pet:Nether Ray]Netherwinds
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Barbed Shot
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] misdirection
+END
+VER 3 0100000000000008 " " "237551"
+#showtooltip
+/cast Spirit Shock
+/cast Nether Shock
+END
+VER 3 0100000000000004 " " "ABILITY_DRUID_FEROCIOUSBITE"
+#showtooltip Bestial Wrath
+/cast Bestial Wrath
+END
+VER 3 0100000000000005 " " "ABILITY_HUNTER_KILLCOMMAND"
+#showtooltip
+/petattack
+/cast Kill Command
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 0100000000000003 " " "ABILITY_HUNTER_COBRASHOT"
+#showtooltip
+/cast Cobra Shot
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 0100000000000001 " " "132139"
+#showtooltip
+/cast Growl
+END
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Exhilaration
+/use Healthstone
+END
+VER 3 010000000000000A " " "134400"
+/use !Eagle Eye
+END
+VER 3 010000000000000B " " "134400"
+#showtooltip
+/cast Call of the Wild
+/use 14
+END
+VER 3 010000000000000C " " "134400"
+#showtooltip 
+/cast Trueshot
+/use 14
+END

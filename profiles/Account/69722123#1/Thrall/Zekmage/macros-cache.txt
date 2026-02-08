@@ -1,0 +1,24 @@
+VER 3 0100000000000003 " " "134400"
+#showtooltip Icy Veins
+/use Fleshrender's Meathook
+/cast Icy Veins
+END
+VER 3 0100000000000005 " " "132876"
+/use 13
+/use 14
+END
+VER 3 0100000000000004 " " "134400"
+#showtooltip Touch of the Magi
+/use Fleshrender's Meathook
+/cast Touch of the Magi
+END
+VER 3 0100000000000006 "Teleport Home" "7252953"
+#plumber:home
+/click PLMR_HOME1
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mæg[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

@@ -1,0 +1,43 @@
+VER 3 0100000000000003 " " "SPELL_SHAMAN_EARTHQUAKE"
+#showtooltip
+/cast [@cursor] Earthquake
+END
+VER 3 0100000000000005 " " "135790"
+/mountspecial
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Farseer's Raging Tempest
+/cast Water Walking
+/cast [nomounted,flyable]Farseer's Raging Tempest;
+/cast [nomounted,noflyable]Biletooth Gnasher;
+/dismount
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 14
+/use 14
+END
+VER 3 0100000000000008 " " "132093"
+/cast [talent:6/2] Eye of the Storm
+/cast [talent:6/2] Meteor
+END
+VER 3 0100000000000004 " " "INV_MACE_1H_ARTIFACTDOOMHAMMER_D_01"
+#showtooltip
+/cast Doom Winds
+/cast Berserking
+END
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Stormkeeper
+/cast Berserking
+/use 13
+/cast Stormkeeper
+END
+VER 3 010000000000000A "Teleport Home" "236350"
+#plumber:home
+/click PLMR_HOME4
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Zek[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

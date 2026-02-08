@@ -1,0 +1,58 @@
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Shadowstep
+/s *teleports behind you*
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus,exists,harm][]Blind
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus, exists, nodead] Tricks of the Trade
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Vendetta
+/use 13
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Vendetta
+/s Nothing personel kid
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Adrenaline Rush
+/cast Stealth
+/cast Potion of Bursting Blood
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Adrenaline Rush
+/cast Stealth
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Garrote
+/use 14
+END
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Blade Flurry
+/use Sapphire of Brilliance
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip item:5512
+/use Emerald of Vigor
+/use Healthstone
+/use Coastal Healing Potion
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod,talent:7/2] Blade Rush; [nomod,talent:7/3] Killing Spree
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Arcane Torrent
+END

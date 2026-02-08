@@ -1,0 +1,16 @@
+VER 3 0100000000000001 " " "134400"
+#showtooltip Angelic Feather
+/cast [@player] Angelic Feather
+END
+VER 3 0100000000000002 " " "134400"
+#showtooltip Void Torrent
+/use 14
+/use 13
+/cast Void Torrent
+END
+VER 3 0100000000000003 " " "134400"
+#showtooltip Voidwraith
+/use 14 
+/use 13
+/cast Voidwraith
+END

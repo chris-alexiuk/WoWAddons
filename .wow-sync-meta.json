@@ -1,6 +1,7 @@
 {
   "machineLabel": "Primary Machine",
   "mode": "source",
-  "updatedAt": "2026-02-08T19:49:44.937Z",
+  "syncProfiles": true,
+  "updatedAt": "2026-02-08T20:55:02.142Z",
   "branch": "development"
 }

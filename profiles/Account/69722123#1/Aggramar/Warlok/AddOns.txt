@@ -1,0 +1,16 @@
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+Blizzard_CombatText: enabled
+BigWigs_MistsOfPandaria: enabled
+BigWigs_Dragonflight: enabled
+BigWigs_KhazAlgar: enabled
+LittleWigs_WrathOfTheLichKing: enabled
+BigWigs_ManaforgeOmega: enabled
+BigWigs_NerubarPalace: enabled
+LittleWigs: enabled
+BigWigs_WrathOfTheLichKing: enabled
+LittleWigs_Shadowlands: enabled
+BigWigs_Shadowlands: enabled

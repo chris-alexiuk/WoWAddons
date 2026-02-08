@@ -1,0 +1,92 @@
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:2/3] Wild Charge; [talent:2/2] Renewal;
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Healthstone
+/use Coastal Healing Potion
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Thrash
+/use 14
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Efflorescence
+/cast Efflorescence
+/p EFFLO DOWN
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Incarnation: Chosen of Elune
+/cast Incarnation: Chosen of Elune
+/cast Berserking
+/use Elemental Potion of Power
+/use 14
+END
+VER 3 0100000000000008 " " "134400"
+#showtooltip Wrath
+/use Neural Synapse Enhancer
+/use Scars of Fraternal Strife
+/cast Wrath
+END
+VER 3 0100000000000009 " " "134400"
+#showtooltip Starfire
+/use Neural Synapse Enhancer
+/use Scars of Fraternal Strife
+/cast Starfire
+END
+VER 3 010000000000000A " " "134400"
+#showtooltip Rake
+/use 
+END
+VER 3 010000000000000B " " "134400"
+#showtooltip skull bash
+/use [form:4]Bear Form; moonkin form
+/use skull bash
+END
+VER 3 010000000000000C " " "134400"
+#showtooltip Tiger's Fury
+/use Enforcer's Stun Grenade
+/cast Tiger's Fury
+END
+VER 3 010000000000000D " " "134400"
+#showtooltip Convoke the Spirits
+/use Enforcer's  Stun Grenade
+/cast Convoke the Spirits
+END
+VER 3 010000000000000E " " "134400"
+#showtooltip Incarnation: Guardian of Ursoc
+/use 14
+/cast Incarnation: Guardian of Ursoc
+END
+VER 3 010000000000000F " " "134400"
+#showtooltip Incarnation: Chosen of Elune
+/cast Berserking
+/cast Incarnation: Chosen of Elune
+END
+VER 3 0100000000000010 " " "4640492"
+#showtooltip
+/stopmacro [flying]
+/cast [indoors] Cat Form(shapeshift); [advflyable] 1792; Travel Form(shapeshift)
+END
+VER 3 0100000000000011 " " "134400"
+#showtooltip Barkskin
+/use 13
+/cast Barkskin
+END
+VER 3 0100000000000012 " " "134400"
+#showtooltip Thrash
+/use 14
+/cast Thrash
+END
+VER 3 0100000000000013 "Teleport Home" "7252953"
+#plumber:home
+/click PLMR_HOME1
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Pan[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

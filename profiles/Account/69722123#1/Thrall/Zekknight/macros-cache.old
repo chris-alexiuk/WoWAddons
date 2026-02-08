@@ -1,0 +1,36 @@
+VER 3 0100000000000005 " " "134400"
+/cast Consumption
+/use 14
+/cast Ancestral Call
+END
+VER 3 0100000000000006 " " "134400"
+/cast Unholy Assault
+/use 14
+/cast Ancestral Call
+END
+VER 3 0100000000000007 " " "134400"
+/cast Pillar of Frost 
+/use 14
+/cast Ancestral Call
+END
+VER 3 0100000000000009 " " "134400"
+#showtooltip
+/cast Dark Transformation
+/use 13
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Heart Strike
+/use 14
+/use 13
+END
+VER 3 0100000000000008 "Teleport Home" "7252953"
+#plumber:home
+/click PLMR_HOME1
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1EM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Pro[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

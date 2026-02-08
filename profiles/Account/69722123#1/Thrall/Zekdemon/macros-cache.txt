@@ -1,0 +1,18 @@
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+/cast Eye Beam
+END
+VER 3 0100000000000003 " " "134400"
+#showtooltip Metamorphosis
+/use 13
+/cast Metamorphosis
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+/stopmacro [channeling:Eye Beam]
+/cast Chaos Strike
+END
+VER 3 0100000000000004 "Teleport Home" "7252953"
+#plumber:home
+/click PLMR_HOME1
+END

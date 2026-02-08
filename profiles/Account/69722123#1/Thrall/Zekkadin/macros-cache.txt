@@ -1,0 +1,17 @@
+VER 3 0100000000000005 " " "134400"
+#showtooltip
+/cast Sentinel
+/use 14
+END
+VER 3 0100000000000004 " " "132096"
+/focus
+END
+VER 3 0100000000000003 " " "134400"
+#showtooltip Avenging Wrath
+/cast Avenging Wrath
+/use 13
+END
+VER 3 0100000000000006 "Teleport Home" "7252953"
+#plumber:home
+/click PLMR_HOME1
+END

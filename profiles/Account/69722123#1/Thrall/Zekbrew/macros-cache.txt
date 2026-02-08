@@ -1,0 +1,9 @@
+VER 3 0100000000000001 " " "134400"
+/showtooltip
+/cast Weapons of Order
+/use 14
+END
+VER 3 0100000000000002 "Teleport Home" "7252953"
+#plumber:home
+/click PLMR_HOME1
+END

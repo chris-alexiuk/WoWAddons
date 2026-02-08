@@ -1,0 +1,346 @@
+
+BAGANATOR_CONFIG = {
+["Version"] = 1,
+["CharacterSpecific"] = {
+["sort_ignore_bank_slots_count"] = {
+["Zekdemon-Thrall"] = 0,
+},
+["currencies_tracked_imported"] = {
+},
+["currencies_tracked"] = {
+["Zeklok-Thrall"] = {
+{
+["currencyID"] = 3252,
+},
+{
+["currencyID"] = 3268,
+},
+},
+["Zekkadin-Thrall"] = {
+},
+["Zeksham-Thrall"] = {
+{
+["currencyID"] = 1226,
+},
+{
+["currencyID"] = 1273,
+},
+{
+["currencyID"] = 1342,
+},
+},
+["Zekknight-Thrall"] = {
+},
+["Zekpriest-Thrall"] = {
+},
+["Zekwarrior-Thrall"] = {
+{
+["currencyID"] = 3100,
+},
+},
+["Zeklock-Thrall"] = {
+},
+["Zekmage-Thrall"] = {
+},
+["Boomken-Thrall"] = {
+},
+["Illidyne-Thrall"] = {
+},
+["Zekdemon-Thrall"] = {
+},
+["Zekhunter-Thrall"] = {
+},
+["Zekrogue-Thrall"] = {
+},
+["Zekbrew-Thrall"] = {
+},
+},
+["sort_ignore_slots_count_2"] = {
+["Zekdemon-Thrall"] = 0,
+},
+},
+["Profiles"] = {
+["DEFAULT"] = {
+["guild_view_width"] = 14,
+["junk_plugin"] = "poor_quality",
+["reduce_spacing"] = true,
+["upgrade_plugin"] = "none",
+["automatic_categories_added"] = {
+["default_auto_recents"] = true,
+["default_questitem"] = true,
+["default_armor"] = true,
+["default_itemenhancement"] = true,
+["default_toy"] = true,
+["default_housing"] = true,
+["default_hearthstone"] = true,
+["default_other"] = true,
+["default_battlepet"] = true,
+["default_food"] = true,
+["default_reagent"] = true,
+["default_weapon"] = true,
+["default_special_empty"] = true,
+["default_recipe"] = true,
+["default_gem"] = true,
+["default_consumable"] = true,
+["default_tradegoods"] = true,
+["default_potion"] = true,
+["default_keystone"] = true,
+["default_profession"] = true,
+["default_auto_equipment_sets"] = true,
+["default_container"] = true,
+["default_key"] = true,
+["default_miscellaneous"] = true,
+["default_junk"] = true,
+},
+["show_search_box"] = true,
+["debug_categories_search"] = false,
+["bank_view_show_bag_slots"] = false,
+["bank_view_width"] = 24,
+["sort_method"] = "type",
+["reverse_groups_sort_order"] = false,
+["auto_open"] = {
+["merchant"] = true,
+["auction_house"] = true,
+["void_storage"] = false,
+["guild_bank"] = false,
+["forge_of_bonds"] = false,
+["tradeskill"] = false,
+["item_upgrade"] = true,
+["character_panel"] = false,
+["scrapping_machine"] = true,
+["item_interaction"] = true,
+["mail"] = false,
+["sockets"] = false,
+["trade_partner"] = false,
+["bank"] = true,
+},
+["icon_corners_auto_insert_applied"] = {
+["battle_pet_level"] = true,
+["bag_type"] = true,
+["keystone_level"] = true,
+},
+["migrated_sort_method"] = true,
+["category_hidden"] = {
+["1"] = false,
+["default_junk"] = false,
+["2"] = false,
+},
+["icon_mark_unusable"] = true,
+["icon_flash_similar_alt"] = false,
+["category_edit_search_mode"] = "visual",
+["icon_context_fading"] = true,
+["warband_current_tab"] = 0,
+["category_item_grouping"] = true,
+["icon_top_left_corner_array"] = {
+"junk",
+"battle_pet_level",
+"keystone_level",
+"item_level",
+},
+["recent_timeout"] = 15,
+["category_display_order"] = {
+"default_auto_recents",
+"----",
+"default_hearthstone",
+"default_keystone",
+"default_potion",
+"default_food",
+"default_consumable",
+"default_questitem",
+"_1",
+"default_auto_equipment_sets",
+"default_weapon",
+"default_armor",
+"__end",
+"_2",
+"default_reagent",
+"default_tradegoods",
+"default_profession",
+"default_recipe",
+"__end",
+"_3",
+"default_housing",
+"__end",
+"default_gem",
+"default_itemenhancement",
+"default_container",
+"default_key",
+"default_miscellaneous",
+"default_battlepet",
+"default_toy",
+"default_other",
+"----",
+"_4",
+"2",
+"1",
+"__end",
+"----",
+"default_junk",
+"default_special_empty",
+},
+["current_skin"] = "elvui",
+["hide_boe_on_common"] = false,
+["bank_view_type"] = "category",
+["icon_grey_junk"] = true,
+["category_sort_method"] = "type",
+["sort_start_at_bottom"] = false,
+["icon_top_right_corner_array"] = {
+},
+["icon_bottom_right_corner_array"] = {
+"quantity",
+},
+["bank_view_position"] = {
+"BOTTOMLEFT",
+30,
+75,
+},
+["recent_include_owned"] = false,
+["guild_view_position_2"] = {
+"TOPLEFT",
+30,
+-235,
+},
+["category_sections"] = {
+["1"] = {
+["name"] = "EQUIPMENT",
+},
+["4"] = {
+["name"] = "Spec Gear",
+},
+["3"] = {
+["name"] = "HOUSING",
+},
+["2"] = {
+["name"] = "CRAFTING",
+},
+},
+["seen_welcome"] = 1,
+["hide_special_container"] = {
+},
+["bag_empty_space_at_top"] = false,
+["category_horizontal_spacing_2"] = 0.3,
+["category_default_import"] = 3,
+["debug_categories"] = false,
+["character_bank_current_tab"] = 0,
+["icon_bottom_left_corner_array"] = {
+"bag_type",
+"equipment_set",
+},
+["custom_categories"] = {
+["1"] = {
+["name"] = "Vengeance",
+["search"] = "",
+},
+["2"] = {
+["name"] = "Devourer",
+["search"] = "",
+},
+},
+["category_group_empty_slots"] = true,
+["guild_current_tab"] = 1,
+["saved_searches"] = {
+},
+["icon_equipment_set_border"] = true,
+["category_modifications"] = {
+["1"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+},
+["default_junk"] = {
+["showGroupPrefix"] = true,
+["priority"] = -1,
+},
+["default_other"] = {
+},
+["2"] = {
+["showGroupPrefix"] = true,
+["priority"] = 0,
+["addedItems"] = {
+["i:237735"] = true,
+["i:242392"] = true,
+},
+},
+},
+["warband_bank_view_width"] = 14,
+["sort_ignore_slots_at_end"] = false,
+["add_to_category_buttons_2"] = "drag",
+["view_type"] = "unset",
+["bank_current_tab"] = 1,
+["currencies_tracked"] = {
+},
+["character_bank_view_width"] = 14,
+["icon_text_font_size"] = 14,
+["bag_icon_size"] = 35,
+["setting_anchors"] = false,
+["disabled_skins"] = {
+},
+["sort_ignore_slots_count_2"] = 0,
+["sort_ignore_bank_slots_count"] = 0,
+["upgrade_plugin_ignored"] = {
+},
+["skins"] = {
+["blizzard"] = {
+["no_frame_borders"] = false,
+["view_transparency"] = 0,
+["empty_slot_background"] = false,
+},
+["elvui"] = {
+["use_bag_font"] = false,
+},
+["dark"] = {
+["no_frame_borders"] = true,
+["square_icons"] = true,
+["view_transparency"] = 0.3,
+["empty_slot_background"] = true,
+},
+},
+["debug_keywords"] = false,
+["bag_view_position"] = {
+"BOTTOMRIGHT",
+-516.74951171875,
+263.7997436523438,
+},
+["auto_sort_on_open"] = false,
+["category_migration"] = 5,
+["debug_timers"] = false,
+["bag_view_show_bag_slots"] = false,
+["show_buttons_on_alt"] = false,
+["guild_view_dialog_position"] = {
+"BOTTOM",
+"Baganator_GuildViewFrame",
+"TOP",
+0,
+0,
+},
+["new_items_flashing"] = true,
+["character_select_position"] = {
+"RIGHT",
+"Baganator_CategoryViewBackpackViewFrameelvui",
+"LEFT",
+0,
+0,
+},
+["category_section_toggled"] = {
+["2"] = false,
+},
+["show_sort_button_2"] = true,
+["bag_view_width"] = 16,
+["bag_view_type"] = "category",
+["currency_panel_position"] = {
+"RIGHT",
+"Baganator_CategoryViewBackpackViewFrameelvui",
+"LEFT",
+0,
+0,
+},
+["lock_frames"] = false,
+["icon_text_quality_colors"] = false,
+["junk_plugin_ignored"] = {
+},
+["currency_headers_collapsed"] = {
+},
+["currencies_tracked_imported"] = 0,
+},
+},
+}
+BAGANATOR_DATA = nil

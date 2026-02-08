@@ -1,0 +1,25 @@
+VER 3 0100000000000005 " " "134400"
+#showtooltip
+/cast Avatar
+/use 13
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Cleave
+/use [@player] 14
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Battle Cry
+/cast Battle Cry
+/cast Bloodbath
+END
+VER 3 0100000000000006 "Teleport Home" "7252953"
+#plumber:home
+/click PLMR_HOME1
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Wah[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

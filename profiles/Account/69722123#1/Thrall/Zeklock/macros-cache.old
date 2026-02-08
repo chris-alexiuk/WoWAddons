@@ -1,0 +1,6 @@
+VER 3 0100000000000001 " " "134400"
+#showtooltip Grimoire: Felguard
+/cast Grimoire: Felguard
+/use 13
+/use 14
+END
