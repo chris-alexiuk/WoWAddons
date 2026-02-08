@@ -3,17 +3,17 @@ BigWigs3DB = {
 ["profileKeys"] = {
 ["Zekkadin - Thrall"] = "Default",
 ["Zekvoker - Thrall"] = "Default",
-["Zekdemon - Thrall"] = "Default",
+["Zeksham - Thrall"] = "Default",
 ["Zekwarrior - Thrall"] = "Default",
 ["Zekbrew - Thrall"] = "Default",
 ["Zeklock - Thrall"] = "Default",
-["Zeksham - Thrall"] = "Default",
+["Zekrogue - Thrall"] = "Default",
 ["Zekhunter - Thrall"] = "Default",
 ["Illidyne - Thrall"] = "Default",
 ["Zekmage - Thrall"] = "Default",
 ["Zekknight - Thrall"] = "Default",
 ["Zekpriest - Thrall"] = "Default",
-["Zekrogue - Thrall"] = "Default",
+["Zekdemon - Thrall"] = "Default",
 ["Boomken - Thrall"] = "Default",
 },
 ["global"] = {
@@ -28,6 +28,26 @@ BigWigs3DB = {
 },
 },
 ["namespaces"] = {
+["BigWigs_Plugins_Bars"] = {
+["profiles"] = {
+["Default"] = {
+["barStyle"] = "ElvUI",
+["emphasizeGrowup"] = true,
+["normalHeight"] = 20,
+["expWidth"] = 284,
+["growup"] = true,
+["spacing"] = 4,
+["expPosition"] = {
+[3] = -25,
+[4] = 294,
+},
+["normalPosition"] = {
+[3] = 233,
+[4] = 292,
+},
+},
+},
+},
 },
 ["myKeystones"] = {
 ["Player-3678-0E148DB5"] = {
@@ -40,7 +60,7 @@ BigWigs3DB = {
 },
 ["Player-3678-0E0E1CD6"] = {
 ["playerRating"] = 127,
-["specId"] = 65,
+["specId"] = 70,
 ["keyMap"] = 0,
 ["name"] = "Zekkadin",
 ["keyLevel"] = 0,
@@ -174,13 +194,16 @@ BigWigsStatsDB = {
 ["fkDuration"] = 82.00499999988824,
 },
 },
-[2529] = {
+[2522] = {
+["mythic"] = {
+["wipes"] = 1,
+},
 ["normal"] = {
 ["kills"] = 2,
 ["fkDate"] = "2026/01/26",
 ["bestDate"] = "2026/01/26",
-["best"] = 40.51899999985471,
-["fkDuration"] = 84.27399999974295,
+["best"] = 24.93699999991804,
+["fkDuration"] = 64.6480000000447,
 },
 },
 [2530] = {
@@ -201,16 +224,13 @@ BigWigsStatsDB = {
 ["fkDuration"] = 37.74899999983609,
 },
 },
-[2522] = {
-["mythic"] = {
-["wipes"] = 1,
-},
+[2529] = {
 ["normal"] = {
 ["kills"] = 2,
 ["fkDate"] = "2026/01/26",
 ["bestDate"] = "2026/01/26",
-["best"] = 24.93699999991804,
-["fkDuration"] = 64.6480000000447,
+["best"] = 40.51899999985471,
+["fkDuration"] = 84.27399999974295,
 },
 },
 },
@@ -289,13 +309,13 @@ BigWigsStatsDB = {
 ["fkDuration"] = 176.8059999998659,
 },
 },
-[2747] = {
+[2684] = {
 ["LFR"] = {
 ["kills"] = 2,
 ["fkDate"] = "2026/01/30",
 ["bestDate"] = "2026/01/30",
-["best"] = 85.14300000015646,
-["fkDuration"] = 85.14300000015646,
+["best"] = 65.43399999989197,
+["fkDuration"] = 65.43399999989197,
 },
 },
 [2690] = {
@@ -307,13 +327,13 @@ BigWigsStatsDB = {
 ["fkDuration"] = 68.81099999975413,
 },
 },
-[2684] = {
+[2691] = {
 ["LFR"] = {
-["kills"] = 2,
-["fkDate"] = "2026/01/30",
-["bestDate"] = "2026/01/30",
-["best"] = 65.43399999989197,
-["fkDuration"] = 65.43399999989197,
+["kills"] = 3,
+["fkDate"] = "2026/01/28",
+["bestDate"] = "2026/01/28",
+["best"] = 221.5019999998622,
+["fkDuration"] = 221.5019999998622,
 },
 },
 [2685] = {
@@ -325,13 +345,13 @@ BigWigsStatsDB = {
 ["fkDuration"] = 86.18500000005588,
 },
 },
-[2691] = {
+[2747] = {
 ["LFR"] = {
-["kills"] = 3,
-["fkDate"] = "2026/01/28",
-["bestDate"] = "2026/01/28",
-["best"] = 221.5019999998622,
-["fkDuration"] = 221.5019999998622,
+["kills"] = 2,
+["fkDate"] = "2026/01/30",
+["bestDate"] = "2026/01/30",
+["best"] = 85.14300000015646,
+["fkDuration"] = 85.14300000015646,
 },
 },
 },

@@ -9,7 +9,7 @@ AccountPlayedDB = {
 ["class"] = "HUNTER",
 },
 ["Thrall-Zekwarrior"] = {
-["time"] = 1424282,
+["time"] = 1424302,
 ["class"] = "WARRIOR",
 },
 ["Thrall-Zekpriest"] = {
@@ -17,7 +17,7 @@ AccountPlayedDB = {
 ["class"] = "PRIEST",
 },
 ["Thrall-Zekkadin"] = {
-["time"] = 1207040,
+["time"] = 1207426,
 ["class"] = "PALADIN",
 },
 ["Thrall-Illidyne"] = {
@@ -40,13 +40,13 @@ AccountPlayedDB = {
 ["time"] = 6576026,
 ["class"] = "DRUID",
 },
-["Thrall-Zeklock"] = {
-["time"] = 514822,
-["class"] = "WARLOCK",
-},
 ["Thrall-Zekvoker"] = {
 ["time"] = 90919,
 ["class"] = "EVOKER",
+},
+["Thrall-Zeklock"] = {
+["time"] = 514822,
+["class"] = "WARLOCK",
 },
 ["Thrall-Zekrogue"] = {
 ["time"] = 2482184,

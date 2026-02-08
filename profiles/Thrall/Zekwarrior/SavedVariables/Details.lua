@@ -34,7 +34,7 @@ _detalhes_database = {
 ["raid_targets"] = {
 },
 ["end_time"] = 1770104374,
-["aID"] = "3678-0E0E5A62",
+["on_hold"] = false,
 ["specIcon"] = 132347,
 ["nome"] = "Zekwarrior",
 ["spells"] = {
@@ -485,8 +485,8 @@ _detalhes_database = {
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["on_hold"] = false,
 ["tipo"] = 1,
+["aID"] = "3678-0E0E5A62",
 ["custom"] = 0,
 ["last_event"] = 0,
 ["damage_taken"] = 0.004806,
@@ -505,20 +505,20 @@ _detalhes_database = {
 ["dps_started"] = false,
 ["total"] = 41097,
 ["colocacao"] = 2,
-["friendlyfire"] = {
-},
+["on_hold"] = false,
 ["total_extra"] = 0,
 ["serial"] = "Player-96-0C9A5A29",
-["damage_from"] = {
-},
+["specIcon"] = 236264,
 ["targets"] = {
 },
 ["friendlyfire_total"] = 0,
 ["raid_targets"] = {
 },
 ["end_time"] = 1770104374,
-["aID"] = "96-0C9A5A29",
-["specIcon"] = 236264,
+["friendlyfire"] = {
+},
+["damage_from"] = {
+},
 ["nome"] = "Zimomo-BlackDragonflight",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -552,7 +552,7 @@ _detalhes_database = {
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["on_hold"] = false,
+["aID"] = "96-0C9A5A29",
 ["tipo"] = 1,
 ["custom"] = 0,
 ["last_event"] = 0,
@@ -574,7 +574,7 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["classe"] = "WARRIOR",
+["aID"] = "3678-0E0E5A62",
 ["totalover"] = 0.007217,
 ["total_without_pet"] = 0.007217,
 ["total"] = 8000,
@@ -586,15 +586,16 @@ _detalhes_database = {
 ["on_hold"] = false,
 ["serial"] = "Player-3678-0E0E5A62",
 ["totalabsorb"] = 0.007217,
-["last_hps"] = 23.99081151918951,
+["last_hps"] = 23.99081151918741,
 ["specIcon"] = 132347,
 ["targets"] = {
 },
 ["totalover_without_pet"] = 0.007217,
 ["healing_taken"] = 0.007217,
-["heal_enemy_amt"] = 0,
+["classe"] = "WARRIOR",
 ["end_time"] = 1770104374,
-["aID"] = "3678-0E0E5A62",
+["healing_from"] = {
+},
 ["nome"] = "Zekwarrior",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -625,14 +626,13 @@ _detalhes_database = {
 ["tipo"] = 3,
 },
 ["grupo"] = true,
-["healing_from"] = {
-},
 ["start_time"] = 1770104374,
+["heal_enemy_amt"] = 0,
 ["custom"] = 0,
-["tipo"] = 2,
+["last_event"] = 0,
 ["totaldenied"] = 0.007217,
 ["delay"] = 0,
-["last_event"] = 0,
+["tipo"] = 2,
 },
 {
 ["flag_original"] = 1298,
@@ -641,7 +641,7 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["classe"] = "PALADIN",
+["heal_enemy_amt"] = 0,
 ["totalover"] = 0.006221,
 ["total_without_pet"] = 0.006221,
 ["total"] = 0,
@@ -658,7 +658,7 @@ _detalhes_database = {
 },
 ["totalover_without_pet"] = 0.006221,
 ["healing_taken"] = 0.006221,
-["start_time"] = 1770104374,
+["tipo"] = 2,
 ["end_time"] = 1770104374,
 ["targets_overheal"] = {
 },
@@ -670,12 +670,12 @@ _detalhes_database = {
 },
 ["grupo"] = true,
 ["aID"] = "96-0C9A5A29",
-["heal_enemy_amt"] = 0,
+["start_time"] = 1770104374,
 ["custom"] = 0,
-["tipo"] = 2,
+["last_event"] = 0,
 ["totaldenied"] = 0.006221,
 ["delay"] = 0,
-["last_event"] = 0,
+["classe"] = "PALADIN",
 },
 },
 },
@@ -832,20 +832,20 @@ _detalhes_database = {
 ["dps_started"] = false,
 ["total"] = 7996,
 ["colocacao"] = 1,
-["friendlyfire"] = {
-},
+["on_hold"] = false,
 ["total_extra"] = 0,
 ["serial"] = "Player-3678-0E0E5A62",
-["damage_from"] = {
-},
+["specIcon"] = 132347,
 ["targets"] = {
 },
 ["friendlyfire_total"] = 0,
 ["raid_targets"] = {
 },
 ["end_time"] = 1770103842,
-["aID"] = "3678-0E0E5A62",
-["specIcon"] = 132347,
+["friendlyfire"] = {
+},
+["damage_from"] = {
+},
 ["nome"] = "Zekwarrior",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -879,7 +879,7 @@ _detalhes_database = {
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["on_hold"] = false,
+["aID"] = "3678-0E0E5A62",
 ["tipo"] = 1,
 ["custom"] = 0,
 ["last_event"] = 0,
@@ -899,11 +899,11 @@ _detalhes_database = {
 ["dps_started"] = false,
 ["total"] = 7886,
 ["colocacao"] = 2,
-["friendlyfire"] = {
-},
+["on_hold"] = false,
 ["total_extra"] = 0,
 ["serial"] = "Player-96-0C9A5A29",
-["specIcon"] = 236264,
+["damage_from"] = {
+},
 ["targets"] = {
 },
 ["friendlyfire_total"] = 0,
@@ -911,9 +911,9 @@ _detalhes_database = {
 },
 ["damage_taken_ps"] = 4.506591320037842,
 ["end_time"] = 1770103842,
-["aID"] = "96-0C9A5A29",
-["damage_from"] = {
+["friendlyfire"] = {
 },
+["specIcon"] = 236264,
 ["nome"] = "Zimomo-BlackDragonflight",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -947,8 +947,8 @@ _detalhes_database = {
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["on_hold"] = false,
 ["tipo"] = 1,
+["aID"] = "96-0C9A5A29",
 ["custom"] = 0,
 ["last_event"] = 0,
 ["damage_taken"] = 107,
@@ -969,7 +969,7 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["classe"] = "PALADIN",
+["aID"] = "96-0C9A5A29",
 ["totalover"] = 0.004657,
 ["total_without_pet"] = 0.004657,
 ["total"] = 107,
@@ -987,9 +987,10 @@ _detalhes_database = {
 },
 ["totalover_without_pet"] = 0.004657,
 ["healing_taken"] = 0.004657,
-["heal_enemy_amt"] = 0,
+["classe"] = "PALADIN",
 ["end_time"] = 1770103842,
-["aID"] = "96-0C9A5A29",
+["healing_from"] = {
+},
 ["nome"] = "Zimomo-BlackDragonflight",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -1020,14 +1021,13 @@ _detalhes_database = {
 ["tipo"] = 3,
 },
 ["grupo"] = true,
-["healing_from"] = {
-},
 ["start_time"] = 1770103842,
+["heal_enemy_amt"] = 0,
 ["custom"] = 0,
-["tipo"] = 2,
+["last_event"] = 0,
 ["totaldenied"] = 0.004657,
 ["delay"] = 0,
-["last_event"] = 0,
+["tipo"] = 2,
 },
 },
 },
@@ -1198,9 +1198,9 @@ _detalhes_database = {
 ["raid_targets"] = {
 },
 ["end_time"] = 1770102875,
+["on_hold"] = false,
 ["damage_from"] = {
 },
-["aID"] = "3678-0E0E5A62",
 ["nome"] = "Zekwarrior",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -1260,8 +1260,8 @@ _detalhes_database = {
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["on_hold"] = false,
 ["tipo"] = 1,
+["aID"] = "3678-0E0E5A62",
 ["custom"] = 0,
 ["last_event"] = 0,
 ["damage_taken"] = 0.008171,
@@ -1473,6 +1473,32 @@ _detalhes_database = {
 ["n_max"] = 0,
 ["r_amt"] = 0,
 },
+[6603] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.007134,
+["total"] = 52393,
+["c_max"] = 0,
+["id"] = 6603,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["n_max"] = 0,
+["r_amt"] = 0,
+},
 [23881] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
@@ -1525,32 +1551,6 @@ _detalhes_database = {
 ["n_max"] = 0,
 ["r_amt"] = 0,
 },
-[6603] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
-["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 0.007134,
-["total"] = 52393,
-["c_max"] = 0,
-["id"] = 6603,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
 },
 ["tipo"] = 2,
 },
@@ -1577,11 +1577,12 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["classe"] = "WARRIOR",
+["aID"] = "3678-0E0E5A62",
 ["totalover"] = 0.001396,
 ["total_without_pet"] = 0.001396,
 ["total"] = 11282,
-["spec"] = 72,
+["targets_absorbs"] = {
+},
 ["heal_enemy"] = {
 },
 ["on_hold"] = false,
@@ -1592,12 +1593,12 @@ _detalhes_database = {
 ["targets"] = {
 },
 ["totalover_without_pet"] = 0.001396,
-["last_event"] = 0,
+["spec"] = 72,
 ["healing_taken"] = 0.001396,
 ["end_time"] = 1770102875,
+["start_time"] = 1770102875,
 ["healing_from"] = {
 },
-["aID"] = "3678-0E0E5A62",
 ["nome"] = "Zekwarrior",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -1674,14 +1675,13 @@ _detalhes_database = {
 ["tipo"] = 3,
 },
 ["grupo"] = true,
-["start_time"] = 1770102875,
 ["heal_enemy_amt"] = 0,
+["last_event"] = 0,
 ["custom"] = 0,
 ["tipo"] = 2,
 ["totaldenied"] = 0.001396,
 ["delay"] = 0,
-["targets_absorbs"] = {
-},
+["classe"] = "WARRIOR",
 },
 },
 },
@@ -1849,9 +1849,9 @@ _detalhes_database = {
 ["raid_targets"] = {
 },
 ["end_time"] = 1770102837,
+["on_hold"] = false,
 ["damage_from"] = {
 },
-["aID"] = "3678-0E0E5A62",
 ["nome"] = "Zekwarrior",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -1885,8 +1885,8 @@ _detalhes_database = {
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["on_hold"] = false,
 ["tipo"] = 1,
+["aID"] = "3678-0E0E5A62",
 ["custom"] = 0,
 ["last_event"] = 0,
 ["damage_taken"] = 0.0058,
@@ -2202,7 +2202,7 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["aID"] = "3678-0E0E5A62",
+["heal_enemy_amt"] = 0,
 ["totalover"] = 0.005386,
 ["total_without_pet"] = 0.005386,
 ["total"] = 0,
@@ -2231,13 +2231,13 @@ _detalhes_database = {
 ["tipo"] = 3,
 },
 ["grupo"] = true,
-["heal_enemy_amt"] = 0,
+["classe"] = "WARRIOR",
 ["last_event"] = 0,
 ["custom"] = 0,
 ["tipo"] = 2,
 ["totaldenied"] = 0.005386,
 ["delay"] = 0,
-["classe"] = "WARRIOR",
+["aID"] = "3678-0E0E5A62",
 },
 },
 },
@@ -3705,7 +3705,7 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["aID"] = "3678-0E0E5A62",
+["heal_enemy_amt"] = 0,
 ["totalover"] = 0.007672,
 ["total_without_pet"] = 0.007672,
 ["total"] = 0,
@@ -3734,13 +3734,13 @@ _detalhes_database = {
 ["tipo"] = 3,
 },
 ["grupo"] = true,
-["heal_enemy_amt"] = 0,
+["classe"] = "WARRIOR",
 ["last_event"] = 0,
 ["custom"] = 0,
 ["tipo"] = 2,
 ["totaldenied"] = 0.007672,
 ["delay"] = 0,
-["classe"] = "WARRIOR",
+["aID"] = "3678-0E0E5A62",
 },
 },
 },
@@ -3967,7 +3967,7 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["aID"] = "3678-0E0E5A62",
+["heal_enemy_amt"] = 0,
 ["totalover"] = 0.002834,
 ["total_without_pet"] = 0.002834,
 ["total"] = 0,
@@ -3996,13 +3996,13 @@ _detalhes_database = {
 ["tipo"] = 3,
 },
 ["grupo"] = true,
-["heal_enemy_amt"] = 0,
+["classe"] = "WARRIOR",
 ["last_event"] = 0,
 ["custom"] = 0,
 ["tipo"] = 2,
 ["totaldenied"] = 0.002834,
 ["delay"] = 0,
-["classe"] = "WARRIOR",
+["aID"] = "3678-0E0E5A62",
 },
 },
 },
@@ -4681,9 +4681,9 @@ _detalhes_database = {
 ["width"] = 120,
 ["ignored_cooldowns"] = {
 },
-["framme_locked"] = false,
 ["cooldowns"] = {
 },
+["height"] = 18,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -4691,7 +4691,7 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["height"] = 18,
+["framme_locked"] = false,
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -4711,61 +4711,6 @@ _detalhes_database = {
 },
 ["combat_counter"] = 29,
 ["damage_meter_sessions"] = {
-{
-["endUnixTime"] = 1770102838,
-["endTime"] = 242277.81,
-["added"] = true,
-["endDate"] = "02:13:58",
-["startUnixTime"] = 1770102832,
-["startDate"] = "02:13:52",
-["startTime"] = 242272.559,
-["sessionId"] = 1,
-["detailsId"] = "Proto Avian Fledgling1",
-},
-{
-["endUnixTime"] = 1770102871,
-["endTime"] = 242311.051,
-["added"] = true,
-["endDate"] = "02:14:31",
-["startUnixTime"] = 1770102861,
-["startDate"] = "02:14:21",
-["startTime"] = 242301.712,
-["sessionId"] = 2,
-["detailsId"] = "2",
-},
-{
-["endUnixTime"] = 1770102876,
-["endTime"] = 242315.977,
-["added"] = true,
-["endDate"] = "02:14:36",
-["startUnixTime"] = 1770102874,
-["startDate"] = "02:14:34",
-["startTime"] = 242314.278,
-["sessionId"] = 3,
-["detailsId"] = "3",
-},
-{
-["endUnixTime"] = 1770103843,
-["endTime"] = 243282.969,
-["added"] = true,
-["endDate"] = "02:30:43",
-["startUnixTime"] = 1770103819,
-["startDate"] = "02:30:19",
-["startTime"] = 243259.228,
-["sessionId"] = 4,
-["detailsId"] = "Proto Avian Fledgling4",
-},
-{
-["endUnixTime"] = 1770104374,
-["endTime"] = 243814.291,
-["added"] = true,
-["endDate"] = "02:39:34",
-["startUnixTime"] = 1770104041,
-["startDate"] = "02:34:01",
-["startTime"] = 243480.83,
-["sessionId"] = 5,
-["detailsId"] = "Desert Viperid5",
-},
 },
 ["force_font_outline"] = "",
 ["tabela_instancias"] = {
@@ -4878,13 +4823,13 @@ _detalhes_database = {
 },
 },
 },
-["nick_tag_cache"] = {
-["nextreset"] = 1770512232,
-["last_version"] = 16,
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
-["cached_talents"] = {
-["Player-96-0C9A5A29"] = "CIEAluyd8f1X+/CR3M7jOKdROtNj5BYMWGzYmZW2YmxMGzAAAAAAAAA00MDAAbtAAAAAAAYmptZmtZmZWWWabmxmZAAAwAAAAA",
-["Player-3678-0E0E5A62"] = "CgEAmaXYRr39NNAQKu+E/lY36BAAAAAAgGDjZMzmZMzYmZMzYGzYmlZmxYmZZMzMAAQYgNAjGGQmFMsAYGmxAgZGADzMDMA",
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
 ["last_instance_id"] = 0,
 ["data_harvest_for_charsts"] = {
@@ -4917,14 +4862,15 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Global",
-["last_day"] = "03",
-["character_data"] = {
-["logons"] = 8,
+["last_day"] = "08",
+["nick_tag_cache"] = {
+["nextreset"] = 1771874601,
+["last_version"] = 16,
 },
 ["ignore_nicktag"] = false,
 ["damage_meter_session_info"] = {
 },
-["player_stats"] = {
+["cached_talents"] = {
 },
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
@@ -4935,6 +4881,17 @@ _detalhes_database = {
 ["calc_evoker_damage"] = true,
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
+},
+["character_data"] = {
+["logons"] = 10,
+},
+["plugin_database"] = {
+["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+["enabled"] = true,
+["author"] = "Terciob",
+["max_compares"] = 4,
+["compare_type"] = 1,
+},
 },
 ["mythic_dungeon_currentsaved"] = {
 ["dungeon_name"] = "",
@@ -4947,41 +4904,25 @@ _detalhes_database = {
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
 },
-["plugin_database"] = {
-["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
-["enabled"] = true,
-["author"] = "Terciob",
-["max_compares"] = 4,
-["compare_type"] = 1,
-},
-},
-["benchmark_db"] = {
-["frame"] = {
-},
+["data_harvested_for_charts"] = {
 },
 ["SoloTablesSaved"] = {
 ["Mode"] = 1,
 },
+["mythic_plus_log"] = {
+},
 ["on_death_menu"] = false,
+["last_instance_time"] = 0,
+["last_version"] = "12.0.0 14500",
+["combat_id"] = 19,
+["savedStyles"] = {
+},
+["last_realversion"] = 168,
 ["coach"] = {
 ["enabled"] = false,
 ["welcome_panel_pos"] = {
 },
 ["last_coach_name"] = false,
-},
-["announce_damagerecord"] = {
-["enabled"] = true,
-["channel"] = "SELF",
-},
-["last_instance_time"] = 0,
-["last_version"] = "12.0.0 14358",
-["combat_id"] = 19,
-["savedStyles"] = {
-},
-["last_realversion"] = 168,
-["announce_firsthit"] = {
-["enabled"] = true,
-["channel"] = "SELF",
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -5574,7 +5515,7 @@ _detalhes_database = {
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["pets"] = {
 },
@@ -5596,7 +5537,7 @@ _detalhes_database = {
 ["aID"] = "3678-0E0E5A62",
 ["healing_taken"] = 0.031093,
 ["end_time"] = 1769903041,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["start_time"] = 1769903038,
 ["nome"] = "Zekwarrior",
@@ -5640,7 +5581,7 @@ _detalhes_database = {
 },
 {
 ["flag_original"] = 1298,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["pets"] = {
 },
@@ -5659,12 +5600,12 @@ _detalhes_database = {
 ["targets"] = {
 },
 ["totalover_without_pet"] = 0.017254,
-["last_event"] = 0,
+["aID"] = "96-0C9A5A29",
 ["healing_taken"] = 0.017254,
 ["end_time"] = 1770103843,
-["healing_from"] = {
+["targets_overheal"] = {
 },
-["aID"] = "96-0C9A5A29",
+["start_time"] = 1770103840,
 ["nome"] = "Zimomo-BlackDragonflight",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -5695,8 +5636,8 @@ _detalhes_database = {
 ["tipo"] = 3,
 },
 ["grupo"] = true,
-["start_time"] = 1770103840,
 ["heal_enemy_amt"] = 0,
+["last_event"] = 0,
 ["custom"] = 0,
 ["tipo"] = 2,
 ["totaldenied"] = 0.017254,
@@ -5812,17 +5753,12 @@ _detalhes_database = {
 ["n"] = 1,
 },
 ["is_challenge"] = false,
-["frags"] = {
+["spells_cast_timeline"] = {
 },
 ["player_last_events"] = {
 },
 ["overall_enemy_name"] = "Unknown",
 ["data_inicio"] = "18:43:09",
-["spells_cast_timeline"] = {
-},
-["start_time"] = 243429.633,
-["TimeData"] = {
-},
 ["segments_added"] = {
 {
 ["elapsed"] = 333.4609999999811,
@@ -5945,12 +5881,19 @@ _detalhes_database = {
 ["clock"] = 0,
 },
 },
+["start_time"] = 243429.633,
+["TimeData"] = {
 },
-["mythic_plus_log"] = {
+["frags"] = {
+},
+},
+["benchmark_db"] = {
+["frame"] = {
+},
 },
 ["arena_data_headers"] = {
 },
-["data_harvested_for_charts"] = {
+["player_stats"] = {
 },
 ["announce_cooldowns"] = {
 ["ignored_cooldowns"] = {
@@ -5966,6 +5909,6 @@ _detalhes_database = {
 ["cached_roles"] = {
 },
 ["cached_specs"] = {
-["Player-3678-0E0E5A62"] = 72,
+["Player-3678-0E0E5A62"] = 73,
 },
 }

@@ -46,13 +46,13 @@ BAGANATOR_CONFIG = {
 },
 ["Illidyne-Thrall"] = {
 },
-["Zekdemon-Thrall"] = {
+["Boomken-Thrall"] = {
 },
 ["Zekhunter-Thrall"] = {
 },
 ["Zekrogue-Thrall"] = {
 },
-["Boomken-Thrall"] = {
+["Zekdemon-Thrall"] = {
 },
 },
 ["currencies_tracked_imported"] = {
@@ -227,8 +227,7 @@ BAGANATOR_CONFIG = {
 },
 ["junk_plugin_ignored"] = {
 },
-["currencies_tracked"] = {
-},
+["icon_text_quality_colors"] = false,
 ["saved_searches"] = {
 },
 ["lock_frames"] = false,
@@ -257,14 +256,15 @@ BAGANATOR_CONFIG = {
 ["add_to_category_buttons_2"] = "drag",
 ["view_type"] = "unset",
 ["bank_current_tab"] = 1,
-["icon_text_quality_colors"] = false,
+["currencies_tracked"] = {
+},
 ["character_bank_view_width"] = 14,
 ["icon_text_font_size"] = 14,
 ["bag_view_type"] = "category",
-["sort_ignore_slots_count_2"] = 0,
+["bag_view_width"] = 16,
 ["disabled_skins"] = {
 },
-["bag_view_width"] = 16,
+["setting_anchors"] = false,
 ["sort_ignore_bank_slots_count"] = 0,
 ["category_section_toggled"] = {
 ["2"] = false,
@@ -276,7 +276,22 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["debug_keywords"] = false,
+["skins"] = {
+["blizzard"] = {
+["no_frame_borders"] = false,
+["view_transparency"] = 0,
+["empty_slot_background"] = false,
+},
+["elvui"] = {
+["use_bag_font"] = false,
+},
+["dark"] = {
+["no_frame_borders"] = true,
+["square_icons"] = true,
+["view_transparency"] = 0.3,
+["empty_slot_background"] = true,
+},
+},
 ["new_items_flashing"] = true,
 ["auto_sort_on_open"] = false,
 ["category_migration"] = 5,
@@ -295,26 +310,11 @@ BAGANATOR_CONFIG = {
 -516.74951171875,
 263.7997436523438,
 },
-["skins"] = {
-["blizzard"] = {
-["no_frame_borders"] = false,
-["view_transparency"] = 0,
-["empty_slot_background"] = false,
-},
-["elvui"] = {
-["use_bag_font"] = false,
-},
-["dark"] = {
-["no_frame_borders"] = true,
-["square_icons"] = true,
-["view_transparency"] = 0.3,
-["empty_slot_background"] = true,
-},
-},
+["debug_keywords"] = false,
 ["upgrade_plugin_ignored"] = {
 },
 ["show_sort_button_2"] = true,
-["setting_anchors"] = false,
+["sort_ignore_slots_count_2"] = 0,
 ["bag_icon_size"] = 35,
 ["currency_panel_position"] = {
 "RIGHT",

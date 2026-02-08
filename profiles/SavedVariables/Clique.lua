@@ -2,13 +2,13 @@
 CliqueDB = nil
 CliqueDB3 = {
 ["char"] = {
-["Zeksham - Thrall"] = {
-["spec1_profileKey"] = "Zeksham - Thrall",
-["spec2_profileKey"] = "Zeksham - Thrall",
+["Zekkadin - Thrall"] = {
+["spec1_profileKey"] = "Zekkadin - Thrall",
+["spec3_profileKey"] = "Zekkadin - Thrall",
 ["downclick"] = false,
 ["fastooc"] = false,
+["spec2_profileKey"] = "Zekkadin - Thrall",
 ["specswap"] = false,
-["spec3_profileKey"] = "Zeksham - Thrall",
 },
 ["Zekknight - Thrall"] = {
 ["spec1_profileKey"] = "Zekknight - Thrall",
@@ -18,6 +18,14 @@ CliqueDB3 = {
 ["spec2_profileKey"] = "Zekknight - Thrall",
 ["specswap"] = false,
 },
+["Zeksham - Thrall"] = {
+["spec1_profileKey"] = "Zeksham - Thrall",
+["spec2_profileKey"] = "Zeksham - Thrall",
+["downclick"] = false,
+["fastooc"] = false,
+["specswap"] = false,
+["spec3_profileKey"] = "Zeksham - Thrall",
+},
 ["Zekdemon - Thrall"] = {
 ["spec1_profileKey"] = "Zekdemon - Thrall",
 ["spec2_profileKey"] = "Zekdemon - Thrall",
@@ -26,29 +34,21 @@ CliqueDB3 = {
 ["spec3_profileKey"] = "Zekdemon - Thrall",
 ["specswap"] = false,
 },
-["Zekkadin - Thrall"] = {
-["spec1_profileKey"] = "Zekkadin - Thrall",
-["fastooc"] = false,
-["specswap"] = false,
-["downclick"] = false,
-["spec3_profileKey"] = "Zekkadin - Thrall",
-["spec2_profileKey"] = "Zekkadin - Thrall",
-},
 },
 ["profileKeys"] = {
 ["Zekkadin - Thrall"] = "Zekkadin - Thrall",
-["Zekvoker - Thrall"] = "Zekvoker - Thrall",
-["Zeksham - Thrall"] = "Zeksham - Thrall",
+["Zeklock - Thrall"] = "Zeklock - Thrall",
+["Zekdemon - Thrall"] = "Zekdemon - Thrall",
 ["Zekwarrior - Thrall"] = "Zekwarrior - Thrall",
 ["Zekbrew - Thrall"] = "Zekbrew - Thrall",
 ["Zekmage - Thrall"] = "Zekmage - Thrall",
-["Zekdemon - Thrall"] = "Zekdemon - Thrall",
+["Zeksham - Thrall"] = "Zeksham - Thrall",
 ["Zekhunter - Thrall"] = "Zekhunter - Thrall",
 ["Illidyne - Thrall"] = "Illidyne - Thrall",
 ["Zekrogue - Thrall"] = "Zekrogue - Thrall",
 ["Zekknight - Thrall"] = "Zekknight - Thrall",
 ["Zekpriest - Thrall"] = "Zekpriest - Thrall",
-["Zeklock - Thrall"] = "Zeklock - Thrall",
+["Zekvoker - Thrall"] = "Zekvoker - Thrall",
 ["Boomken - Thrall"] = "Boomken - Thrall",
 },
 ["profiles"] = {
@@ -72,31 +72,6 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["spell"] = "Blessing of Sacrifice",
-["key"] = "ALT-2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135966,
-["type"] = "spell",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["spell"] = "Holy Shock",
-["key"] = "Q",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135972,
-["type"] = "spell",
-},
-{
 ["spell"] = "Lay on Hands",
 ["key"] = "ALT-BUTTON3",
 ["sets"] = {
@@ -115,39 +90,37 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
+["spell"] = "Holy Shock",
+["key"] = "Q",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135972,
+["type"] = "spell",
+},
+{
+["spell"] = "Blessing of Sacrifice",
+["key"] = "ALT-2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135966,
+["type"] = "spell",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
 ["spell"] = "Beacon of Faith",
 ["key"] = "SHIFT-F",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 1030095,
-["type"] = "spell",
-},
-{
-["spell"] = "Redemption",
-["key"] = "ALT-MOUSEWHEELUP",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135955,
-["type"] = "spell",
-},
-{
-["spell"] = "Intercession",
-["key"] = "NUMPAD6",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 4726195,
-["type"] = "spell",
-},
-{
-["spell"] = "Beacon of Light",
-["key"] = "F",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 236247,
 ["type"] = "spell",
 },
 {
@@ -160,12 +133,12 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["spell"] = "Cleanse",
-["key"] = "SHIFT-R",
+["spell"] = "Intercession",
+["key"] = "NUMPAD6",
 ["sets"] = {
 ["default"] = true,
 },
-["icon"] = 135949,
+["icon"] = 4726195,
 ["type"] = "spell",
 },
 {
@@ -175,6 +148,33 @@ CliqueDB3 = {
 ["default"] = true,
 },
 ["icon"] = 135981,
+["type"] = "spell",
+},
+{
+["spell"] = "Redemption",
+["key"] = "ALT-MOUSEWHEELUP",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135955,
+["type"] = "spell",
+},
+{
+["spell"] = "Cleanse",
+["key"] = "SHIFT-R",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135949,
+["type"] = "spell",
+},
+{
+["spell"] = "Beacon of Light",
+["key"] = "F",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 236247,
 ["type"] = "spell",
 },
 {
@@ -188,7 +188,7 @@ CliqueDB3 = {
 },
 },
 },
-["Zekvoker - Thrall"] = {
+["Zeklock - Thrall"] = {
 ["bindings"] = {
 {
 ["sets"] = {
@@ -207,7 +207,7 @@ CliqueDB3 = {
 },
 },
 },
-["Zeksham - Thrall"] = {
+["Zekdemon - Thrall"] = {
 ["bindings"] = {
 {
 ["type"] = "target",
@@ -218,65 +218,11 @@ CliqueDB3 = {
 ["unit"] = "mouseover",
 },
 {
-["spell"] = "Chain Heal",
-["key"] = "1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 6712961,
-["type"] = "spell",
-},
-{
 ["type"] = "menu",
 ["key"] = "BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
-},
-{
-["spell"] = "Ancestral Spirit",
-["key"] = "NUMPAD6",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136077,
-["type"] = "spell",
-},
-{
-["spell"] = "Earth Shield",
-["key"] = "ALT-BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136089,
-["type"] = "spell",
-},
-{
-["spell"] = "Healing Wave",
-["key"] = "Q",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136043,
-["type"] = "spell",
-},
-{
-["spell"] = "Riptide",
-["key"] = "E",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 252995,
-["type"] = "spell",
-},
-{
-["spell"] = "Purify Spirit",
-["key"] = "R",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 236288,
-["type"] = "spell",
 },
 },
 },
@@ -409,7 +355,7 @@ CliqueDB3 = {
 },
 },
 },
-["Zekdemon - Thrall"] = {
+["Zeksham - Thrall"] = {
 ["bindings"] = {
 {
 ["type"] = "target",
@@ -420,11 +366,65 @@ CliqueDB3 = {
 ["unit"] = "mouseover",
 },
 {
+["spell"] = "Chain Heal",
+["key"] = "1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 6712961,
+["type"] = "spell",
+},
+{
 ["type"] = "menu",
 ["key"] = "BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
+},
+{
+["spell"] = "Ancestral Spirit",
+["key"] = "NUMPAD6",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136077,
+["type"] = "spell",
+},
+{
+["spell"] = "Earth Shield",
+["key"] = "ALT-BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136089,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Wave",
+["key"] = "Q",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136043,
+["type"] = "spell",
+},
+{
+["spell"] = "Riptide",
+["key"] = "E",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 252995,
+["type"] = "spell",
+},
+{
+["spell"] = "Purify Spirit",
+["key"] = "R",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 236288,
+["type"] = "spell",
 },
 },
 },
@@ -523,7 +523,7 @@ CliqueDB3 = {
 },
 },
 },
-["Zeklock - Thrall"] = {
+["Zekvoker - Thrall"] = {
 ["bindings"] = {
 {
 ["sets"] = {

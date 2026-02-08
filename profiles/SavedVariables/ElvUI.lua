@@ -3,17 +3,17 @@ ElvDB = {
 ["profileKeys"] = {
 ["Zekkadin - Thrall"] = "Default",
 ["Zekvoker - Thrall"] = "Default",
-["Zekdemon - Thrall"] = "Default",
+["Zeksham - Thrall"] = "Default",
 ["Zekwarrior - Thrall"] = "Default",
 ["Zekbrew - Thrall"] = "Default",
 ["Zeklock - Thrall"] = "Default",
-["Zeksham - Thrall"] = "Default",
+["Zekrogue - Thrall"] = "Default",
 ["Zekhunter - Thrall"] = "Default",
 ["Illidyne - Thrall"] = "Default",
 ["Zekmage - Thrall"] = "Default",
 ["Zekknight - Thrall"] = "Default",
 ["Zekpriest - Thrall"] = "Default",
-["Zekrogue - Thrall"] = "Default",
+["Zekdemon - Thrall"] = "Default",
 ["Boomken - Thrall"] = "Default",
 },
 ["DisabledAddOns"] = {
@@ -28,11 +28,11 @@ ElvDB = {
 ["Zeklock"] = "WARLOCK",
 ["Zekdemon"] = "DEMONHUNTER",
 ["Zekvoker"] = "EVOKER",
-["Zekhunter"] = "HUNTER",
-["Boomken"] = "DRUID",
 ["Zekpriest"] = "PRIEST",
-["Illidyne"] = "DEMONHUNTER",
+["Boomken"] = "DRUID",
 ["Zekbrew"] = "MONK",
+["Illidyne"] = "DEMONHUNTER",
+["Zekhunter"] = "HUNTER",
 ["Zekwarrior"] = "WARRIOR",
 ["Zekknight"] = "DEATHKNIGHT",
 ["Zekrogue"] = "ROGUE",
@@ -234,22 +234,18 @@ ElvDB = {
 ["raid2"] = {
 ["enable"] = false,
 },
-["targettarget"] = {
+["pet"] = {
 ["debuffs"] = {
-["enable"] = false,
+["enable"] = true,
 },
-["threatStyle"] = "GLOW",
-["power"] = {
-["enable"] = false,
+["castbar"] = {
+["iconSize"] = 32,
 },
-["disableMouseoverGlow"] = true,
 ["width"] = 270,
-["raidicon"] = {
-["attachTo"] = "LEFT",
-["xOffset"] = 2,
-["enable"] = false,
-["yOffset"] = 0,
+["infoPanel"] = {
+["height"] = 14,
 },
+["disableTargetGlow"] = false,
 },
 ["player"] = {
 ["debuffs"] = {
@@ -317,18 +313,22 @@ ElvDB = {
 ["width"] = 92,
 ["enable"] = false,
 },
-["pet"] = {
+["targettarget"] = {
 ["debuffs"] = {
-["enable"] = true,
+["enable"] = false,
 },
-["castbar"] = {
-["iconSize"] = 32,
+["threatStyle"] = "GLOW",
+["power"] = {
+["enable"] = false,
 },
+["disableMouseoverGlow"] = true,
 ["width"] = 270,
-["infoPanel"] = {
-["height"] = 14,
+["raidicon"] = {
+["attachTo"] = "LEFT",
+["xOffset"] = 2,
+["enable"] = false,
+["yOffset"] = 0,
 },
-["disableTargetGlow"] = false,
 },
 ["assist"] = {
 ["enable"] = false,
@@ -503,16 +503,16 @@ nil,
 ["gold"] = {
 ["Thrall"] = {
 ["Zeksham"] = 63109060,
-["Zekkadin"] = 1443739534,
+["Zekkadin"] = 1433596413,
 ["Zekmage"] = 967557598,
 ["Zeklock"] = 664766371,
 ["Zekdemon"] = 13894576163,
 ["Zekvoker"] = 1425131707,
-["Zekhunter"] = 245531686,
-["Boomken"] = 2162664716,
 ["Zekpriest"] = 714553035,
-["Illidyne"] = 126704584,
+["Boomken"] = 2162664716,
 ["Zekbrew"] = 66046866,
+["Illidyne"] = 126704584,
+["Zekhunter"] = 245531686,
 ["Zekwarrior"] = 1310601171,
 ["Zekknight"] = 714588248,
 ["Zekrogue"] = 191267667,
@@ -531,11 +531,11 @@ nil,
 ["Zeklock"] = "Alliance",
 ["Zekdemon"] = "Alliance",
 ["Zekvoker"] = "Horde",
-["Zekhunter"] = "Alliance",
-["Boomken"] = "Alliance",
 ["Zekpriest"] = "Alliance",
-["Illidyne"] = "Horde",
+["Boomken"] = "Alliance",
 ["Zekbrew"] = "Alliance",
+["Illidyne"] = "Horde",
+["Zekhunter"] = "Alliance",
 ["Zekwarrior"] = "Alliance",
 ["Zekknight"] = "Alliance",
 ["Zekrogue"] = "Alliance",
@@ -560,43 +560,49 @@ nil,
 nil,
 true,
 },
-[7] = {
+nil,
+nil,
+nil,
+nil,
+nil,
+{
 nil,
 nil,
 nil,
 true,
 },
-[10] = {
+{
 nil,
 nil,
 nil,
 true,
 },
-[11] = {
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+{
 nil,
 nil,
 nil,
 true,
 },
-[20] = {
+[25] = {
 nil,
 nil,
 nil,
 true,
 },
-[29] = {
+[30] = {
 nil,
 nil,
 nil,
 true,
 },
-[35] = {
-nil,
-nil,
-nil,
-true,
-},
-[39] = {
+[40] = {
 nil,
 nil,
 nil,
@@ -614,19 +620,7 @@ nil,
 nil,
 true,
 },
-[61] = {
-nil,
-nil,
-nil,
-true,
-},
-[66] = {
-nil,
-nil,
-nil,
-true,
-},
-[80] = {
+[65] = {
 nil,
 nil,
 nil,
@@ -644,6 +638,12 @@ nil,
 nil,
 true,
 },
+[80] = {
+nil,
+nil,
+nil,
+true,
+},
 },
 },
 },
@@ -654,25 +654,25 @@ ElvPrivateDB = {
 ["profileKeys"] = {
 ["Zekkadin - Thrall"] = "Zekkadin - Thrall",
 ["Zekvoker - Thrall"] = "Zekvoker - Thrall",
-["Zekdemon - Thrall"] = "Zekdemon - Thrall",
+["Zeksham - Thrall"] = "Zeksham - Thrall",
 ["Zekwarrior - Thrall"] = "Zekwarrior - Thrall",
 ["Zekbrew - Thrall"] = "Zekbrew - Thrall",
 ["Zeklock - Thrall"] = "Zeklock - Thrall",
-["Zeksham - Thrall"] = "Zeksham - Thrall",
+["Zekrogue - Thrall"] = "Zekrogue - Thrall",
 ["Zekhunter - Thrall"] = "Zekhunter - Thrall",
 ["Illidyne - Thrall"] = "Illidyne - Thrall",
 ["Zekmage - Thrall"] = "Zekmage - Thrall",
 ["Zekknight - Thrall"] = "Zekknight - Thrall",
 ["Zekpriest - Thrall"] = "Zekpriest - Thrall",
-["Zekrogue - Thrall"] = "Zekrogue - Thrall",
+["Zekdemon - Thrall"] = "Zekdemon - Thrall",
 ["Boomken - Thrall"] = "Boomken - Thrall",
 },
 ["profiles"] = {
 ["Zekkadin - Thrall"] = {
-["bags"] = {
+["nameplates"] = {
 ["enable"] = false,
 },
-["nameplates"] = {
+["bags"] = {
 ["enable"] = false,
 },
 ["theme"] = "default",
@@ -681,21 +681,20 @@ ElvPrivateDB = {
 ["Zekvoker - Thrall"] = {
 ["install_complete"] = 15.02,
 },
-["Zekdemon - Thrall"] = {
+["Zeksham - Thrall"] = {
 ["nameplates"] = {
 ["enable"] = false,
 },
 ["bags"] = {
 ["enable"] = false,
 },
-["theme"] = "class",
 ["install_complete"] = 15,
 },
 ["Zekwarrior - Thrall"] = {
-["nameplates"] = {
+["bags"] = {
 ["enable"] = false,
 },
-["bags"] = {
+["nameplates"] = {
 ["enable"] = false,
 },
 ["install_complete"] = 15.02,
@@ -718,7 +717,7 @@ ElvPrivateDB = {
 },
 ["install_complete"] = 15,
 },
-["Zeksham - Thrall"] = {
+["Zekrogue - Thrall"] = {
 ["nameplates"] = {
 ["enable"] = false,
 },
@@ -763,13 +762,14 @@ ElvPrivateDB = {
 },
 ["install_complete"] = 15.03,
 },
-["Zekrogue - Thrall"] = {
+["Zekdemon - Thrall"] = {
 ["nameplates"] = {
 ["enable"] = false,
 },
 ["bags"] = {
 ["enable"] = false,
 },
+["theme"] = "class",
 ["install_complete"] = 15,
 },
 ["Boomken - Thrall"] = {
